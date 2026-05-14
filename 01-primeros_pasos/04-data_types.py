@@ -31,3 +31,10 @@ diccionario_persona = {
     "tiene_licencia": False,
 }
 print(diccionario_persona["nombre"])
+
+name = 'luis'
+last_name = 'nunez'
+
+
+full_name = f'{name} {last_name} {edad}'
+print(full_name)
